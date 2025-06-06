@@ -17,7 +17,7 @@ keymap = [
         ["Quote", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Backspace"],
         ["LCtrl", "A", "S", "D", "F", "G", "H", "J", "K", "L", "L", "Enter"],
         ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Z", "RShift"],
-        ["Kc4", "Kc6", "Kc7", "LGui", "TT(5)", "Enter", "Space", "MO(6)", "RAlt", "__", "__", "__"]
+        ["Kc4", "Kc6", "Kc7", "LGui", "TT(5)", "Enter", "Space", "MO(6)", "RAlt", "__", "__", "__"],
     ],
     [
         ["__","Kc7", "G", "__", "__", "__", "__", "__", "__", "__", "__", "__""],
