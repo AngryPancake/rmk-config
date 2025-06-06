@@ -90,13 +90,13 @@ output_pins = ["P0_30", "P0_31", "P0_29", "P0_02", "P1_13", "P0_03", "P0_28"]
 
 [[split.peripheral]]
 rows = 4
-cols = 6
+cols = 7
 row_offset = 0
-col_offset = 6
+col_offset = 7
 ble_addr = [0x7e, 0xfe, 0x73, 0x9e, 0x66, 0xe3]
 [split.peripheral.matrix]
-input_pins = ["P0_22", "P0_24", "P1_00", "P0_11"]
-output_pins = ["P1_11", "P1_13", "P1_15", "P0_02", "P0_29", "P0_31"]
+input_pins = ["P0_20", "P0_13", "P0_24", "P0_09"]
+output_pins = ["P0_30", "P0_31", "P0_29", "P0_02", "P1_13", "P0_03", "P0_28"]
 
 # [[split.peripheral]]
 # rows = 2
