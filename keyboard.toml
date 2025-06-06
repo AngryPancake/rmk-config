@@ -14,10 +14,10 @@ cols = 14
 layers = 8
 keymap = [
     [
-        ["Kc1","Quote", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Backspace", "__"],
-        ["Kc2","LCtrl", "A", "S", "D", "F", "G", "H", "J", "K", "L", "L", "Enter", "__"],
-        ["Kc3","LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Z", "RShift", "__"],
-        ["Kc4", "__", "__", "__", "LGui", "TT(5)", "Enter", "Space", "MO(6)", "RAlt", "__", "__", "__", "__"]
+        ["Quote", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Backspace",     "__","Kc1"],
+        ["LCtrl", "A", "S", "D", "F", "G", "H", "J", "K", "L", "L", "Enter",         "__","Kc2"],
+        ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Z", "RShift", "__","Kc3"],
+        ["Kc4", "Kc5", "Kc6", "Kc7", "LGui", "TT(5)", "Enter", "Space", "MO(6)", "RAlt", "__", "__", "__", "__"]
     ],
     [
         ["__","Kc1", "A", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__"],
