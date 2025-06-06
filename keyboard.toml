@@ -10,14 +10,14 @@ chip = "nrf52840"
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 row2col = true
 rows = 4
-cols = 12
+cols = 14
 layers = 8
 keymap = [
     [
-        ["Tab", "Quote", "Comma", "Dot", "P", "Y", "F", "G", "C", "R", "L", "Backspace"],
-        ["LCtrl", "A", "O", "E", "U", "I", "D", "H", "T", "N", "S", "Enter"],
-        ["LShift", "Semicolon", "Q", "J", "K", "X", "B", "M", "W", "V", "Z", "RShift"],
-        ["__", "__", "__", "LGui", "TT(5)", "Enter", "Space", "MO(6)", "RAlt", "__", "__", "__"]
+        ["Quote", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Backspace"],
+        ["LCtrl", "A", "S", "D", "F", "G", "H", "J", "K", "L", "L", "Enter"],
+        ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Z", "RShift"],
+        ["__", "__", "__", "__", "LGui", "TT(5)", "Enter", "Space", "MO(6)", "RAlt", "__", "__", "__", "__"]
     ],
     [
         ["Kc1", "A", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__"],
