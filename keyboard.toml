@@ -10,7 +10,7 @@ chip = "nrf52840"
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 #row2col = true
 rows = 4
-cols = 14
+cols = 12
 layers = 8
 keymap = [
     [
