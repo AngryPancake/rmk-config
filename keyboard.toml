@@ -71,6 +71,7 @@ enabled = true
 
 [behavior]
 enable_hrm = true
+tap_hold = { enable_hrm = true, prior_idle_time = "120ms", hold_timeout = "250ms", post_wait_time = "50ms"}
 #tri_layer = { uppper = 5, lower = 6, adjust = 7 }
 
 [split]
