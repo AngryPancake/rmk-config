@@ -15,7 +15,7 @@ layers = 8
 keymap = [
     [
         ["Quote", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Backspace"],
-        ["LCtrl", "A", "S", "RGuiT(D)", "F", "G", "H", "J", "K", "L", "L", "Enter"],
+        ["LCtrl", "A", "S", "RGUI_T(D)", "F", "G", "H", "J", "K", "L", "L", "Enter"],
         ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Z", "RShift"],
         ["Kc4", "Kc6", "Kc7", "LGui", "TT(5)", "Enter", "Space", "MO(6)", "RAlt", "__", "__", "__"],
     ],
