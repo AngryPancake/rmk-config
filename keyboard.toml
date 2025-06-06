@@ -14,10 +14,10 @@ cols = 14
 layers = 8
 keymap = [
     [
-        ["__","Quote", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Backspace", "__"],
-        ["__","LCtrl", "A", "S", "D", "F", "G", "H", "J", "K", "L", "L", "Enter", "__"],
-        ["__","LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Z", "RShift", "__"],
-        ["__", "__", "__", "__", "LGui", "TT(5)", "Enter", "Space", "MO(6)", "RAlt", "__", "__", "__", "__"]
+        ["Kc1","Quote", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Backspace", "__"],
+        ["Kc2","LCtrl", "A", "S", "D", "F", "G", "H", "J", "K", "L", "L", "Enter", "__"],
+        ["Kc3","LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Z", "RShift", "__"],
+        ["Kc4", "__", "__", "__", "LGui", "TT(5)", "Enter", "Space", "MO(6)", "RAlt", "__", "__", "__", "__"]
     ],
     [
         ["__","Kc1", "A", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__"],
@@ -80,13 +80,13 @@ connection = "ble"
 # corne.dtsi / corne_<left|right>.overlay
 [split.central]
 rows = 4
-cols = 6
+cols = 7
 row_offset = 0
 col_offset = 0
 ble_addr = [0x18, 0xe2, 0x21, 0x80, 0xc0, 0xc7]
 [split.central.matrix]
 input_pins = ["P0_20", "P0_13", "P0_24", "P0_09"]
-output_pins = ["P0_30", "P0_31", "P0_29", "P0_02", "P1_13", "P0_03"]
+output_pins = ["P0_30", "P0_31", "P0_29", "P0_02", "P1_13", "P0_03", "P0_28"]
 
 [[split.peripheral]]
 rows = 4
