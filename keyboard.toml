@@ -70,7 +70,7 @@ clear_storage = true
 enabled = true
 
 [behavior]
-#enable_hrm = true
+enable_hrm = true
 #tri_layer = { uppper = 5, lower = 6, adjust = 7 }
 
 [split]
